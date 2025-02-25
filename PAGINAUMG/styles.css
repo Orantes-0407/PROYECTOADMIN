@@ -1,0 +1,38 @@
+img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    right: 20px;
+  }
+
+input{
+    position: relative;
+    left: 250px;
+    top: -180px;
+    width: 300px;
+    padding: 5px;
+}
+
+.Productos{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+padding: 20px;
+}
+
+.Producto{
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.Producto img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px
+}
